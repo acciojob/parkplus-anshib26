@@ -42,6 +42,6 @@ public class PaymentServiceImpl implements PaymentService {
 
         Reservation savedObj = reservationRepository2.save(reservation);
 
-        return savedObj.getPayment();
+        return payment;
     }
 }

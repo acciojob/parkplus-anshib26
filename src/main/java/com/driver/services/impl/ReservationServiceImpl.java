@@ -85,6 +85,6 @@ public class ReservationServiceImpl implements ReservationService {
         spotRepository3.save(reserveSpot);
         Reservation savedObj = reservationRepository3.save(newReservation);
 
-        return savedObj;
+        return newReservation;
     }
 }
